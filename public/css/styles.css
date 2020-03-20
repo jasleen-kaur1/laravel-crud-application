@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+address, article, aside, blockquote, body, cite,
+div, dl, dt, dd, em, figcaption, figure, footer,
+h1, h2, h3, h4, h5, h6, header, html, img,
+li, main, nav, ol, p, section, span, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family:"Trebuchet MS", "Gill Sans", Verdana, sans-serif;
+}
+
+/* Form Sytles */
+.userForm {
+  display: block;
+  border-radius: 5px;
+  background-color: #dfdce3; /*mauve*/
+  padding: 20px;
+}
+
+label{
+  font-weight: bold;
+}
+
+/* Body Styles */
+body{
+  margin-top: 1%;
+  margin-left:1.5%;
+  margin-right:1.5%;
+  background-color: #F6F6F2; 
+}
+
+h2 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #dfdce3; 
+ }
+
+ #tableHeading{
+  display: none;
+  padding: 20px 20px 5px;
+}
+
+p {
+  padding: 0% 0% 1%;
+}
+
